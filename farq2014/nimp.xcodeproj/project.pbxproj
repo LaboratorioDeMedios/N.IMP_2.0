@@ -129,6 +129,7 @@
 		45CC483A999BF1065A6B926C /* Distance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DBD717072C35D324E101669 /* Distance.cpp */; };
 		491645211CC72CEB00374768 /* Syphon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1B95601CC5AF93003396AD /* Syphon.framework */; };
 		491645221CC72CEB00374768 /* Syphon.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A1B95601CC5AF93003396AD /* Syphon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		495169D41D48345E000DB6A1 /* ShaderLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 495169D21D48345E000DB6A1 /* ShaderLayer.cpp */; };
 		496C45631C51A670009F2A14 /* ConsoleMessageType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 496C45621C51A670009F2A14 /* ConsoleMessageType.cpp */; };
 		4990BDDF1C3CE0DA002710AF /* ConsoleLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4990BDDB1C3CE0DA002710AF /* ConsoleLog.cpp */; };
 		4990BDE01C3CE0DA002710AF /* ConsoleScrollBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4990BDDD1C3CE0DA002710AF /* ConsoleScrollBar.cpp */; };
@@ -542,6 +543,8 @@
 		325BD94FFB93161BBC68336E /* ofxCv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCv.h; path = ../../../addons/ofxCv/src/ofxCv.h; sourceTree = SOURCE_ROOT; };
 		402C8F4015542356D362AC88 /* Calibration.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Calibration.cpp; path = ../../../addons/ofxCv/libs/ofxCv/src/Calibration.cpp; sourceTree = SOURCE_ROOT; };
 		4524C0ED0C2DD3E085CE3350 /* ObjectFinder.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ObjectFinder.h; path = ../../../addons/ofxCv/libs/ofxCv/include/ofxCv/ObjectFinder.h; sourceTree = SOURCE_ROOT; };
+		495169D21D48345E000DB6A1 /* ShaderLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderLayer.cpp; sourceTree = "<group>"; };
+		495169D31D48345E000DB6A1 /* ShaderLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderLayer.h; sourceTree = "<group>"; };
 		496C45621C51A670009F2A14 /* ConsoleMessageType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConsoleMessageType.cpp; path = Console/ConsoleMessageType.cpp; sourceTree = "<group>"; };
 		4990BDDB1C3CE0DA002710AF /* ConsoleLog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ConsoleLog.cpp; path = Console/ConsoleLog.cpp; sourceTree = "<group>"; };
 		4990BDDC1C3CE0DA002710AF /* ConsoleLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConsoleLog.h; path = Console/ConsoleLog.h; sourceTree = "<group>"; };
@@ -1678,6 +1681,8 @@
 		D309EB7E1A2E94AD008B3D94 /* Layer */ = {
 			isa = PBXGroup;
 			children = (
+				495169D21D48345E000DB6A1 /* ShaderLayer.cpp */,
+				495169D31D48345E000DB6A1 /* ShaderLayer.h */,
 				D309EB7F1A2E94AD008B3D94 /* VisualLayer.cpp */,
 				D309EB801A2E94AD008B3D94 /* VisualLayer.h */,
 				D309EB921A2F2FDF008B3D94 /* IkedaLayer.cpp */,
@@ -2080,6 +2085,7 @@
 				D34E961B1A3FA0770089BFE4 /* OscInputGenerator.cpp in Sources */,
 				0A51BA811C11058E000AC121 /* menuItem.cpp in Sources */,
 				0A51B8601C0FE42B000AC121 /* ofxUIWaveform.cpp in Sources */,
+				495169D41D48345E000DB6A1 /* ShaderLayer.cpp in Sources */,
 				0A51B8611C0FE42B000AC121 /* ofxUIWidget.cpp in Sources */,
 				0A51B85F1C0FE42B000AC121 /* ofxUIValuePlotter.cpp in Sources */,
 				0A49EF451C18A3BF00346EB5 /* ofxBasePatch.cpp in Sources */,
