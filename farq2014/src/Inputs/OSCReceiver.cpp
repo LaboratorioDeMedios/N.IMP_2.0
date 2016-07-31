@@ -45,6 +45,7 @@ OSCReceiver::~OSCReceiver(){
     oscMax.removeListener(this, &OSCReceiver::editMax);
     oscMin.removeListener(this, &OSCReceiver::editMin);
     editOSC.removeListener(this, &OSCReceiver::editInputs);
+    ofRemoveListener(ofEvents().mouseReleased, this, &OSCReceiver::_mouseReleased, PATCH_EVENT_PRIORITY);
 }
 
 //------------------------------------------------------------------
@@ -62,6 +63,7 @@ void OSCReceiver::setup() {
     oscMax.addListener(this, &OSCReceiver::editMax);
     oscMin.addListener(this, &OSCReceiver::editMin);
     editOSC.addListener(this, &OSCReceiver::editInputs);
+    ofAddListener(ofEvents().mouseReleased, this, &OSCReceiver::_mouseReleased, PATCH_EVENT_PRIORITY);
 
 }
 
@@ -83,36 +85,12 @@ ofTexture* OSCReceiver::getTexture(){
 
 //------------------------------------------------------------------
 void OSCReceiver::editPort(string& p){
-    
     port = ofToInt(p.substr(5));
-    
-    OSCEvent ev;
-    ev.nodeId = nId;
-    ev.port = port;
-    ev.oldPort = oldPort;
-    ev.address = oldAddress;
-    ev.oldAddress = oldAddress;
-    ev.max = max;
-    ev.min = min;
-    ofNotifyEvent(editOSCPort, ev);
-    
-    oldPort = port;
 }
 
 //------------------------------------------------------------------
 void OSCReceiver::editAddress(string& a){
-    
-    OSCEvent ev;
-    ev.nodeId = nId;
-    ev.port = port;
-    ev.oldPort = port;
-    ev.address = a.substr(9);
-    ev.oldAddress = oldAddress;
-    ev.max = max;
-    ev.min = min;
-    ofNotifyEvent(editOSCPort, ev);
-    
-    oldAddress = a.substr(9);
+    address = a.substr(9);
 }
 
 //------------------------------------------------------------------
@@ -369,4 +347,34 @@ bool OSCReceiver::saveSettingsToSnippet(ofxXmlSettings &XML, map<int,int> newIds
     }
     
     return saved;
+}
+
+
+//------------------------------------------------------------------
+void OSCReceiver::_mouseReleased(ofMouseEventArgs &e){
+    if(oldPort != port && !oscPort.isClicked()){
+        OSCEvent ev;
+        ev.nodeId = nId;
+        ev.port = port;
+        ev.oldPort = oldPort;
+        ev.address = oldAddress;
+        ev.oldAddress = oldAddress;
+        ev.max = max;
+        ev.min = min;
+        ofNotifyEvent(editOSCPort, ev);
+        oldPort = port;
+    }
+    
+    if(oldAddress != address.get() && !oscAddress.isClicked()){
+        OSCEvent ev;
+        ev.nodeId = nId;
+        ev.port = port;
+        ev.oldPort = port;
+        ev.address = address;
+        ev.oldAddress = oldAddress;
+        ev.max = max;
+        ev.min = min;
+        ofNotifyEvent(editOSCPort, ev);
+        oldAddress = address;
+    }
 }

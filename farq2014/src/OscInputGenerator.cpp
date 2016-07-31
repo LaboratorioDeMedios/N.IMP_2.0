@@ -60,8 +60,14 @@ void OscInputGenerator::processInput() {
 void OscInputGenerator::setPort(int port_) {
     
     port = port_;
-    if (port > 999)
-        receiver.setup(port);
+    if (port > 999 && port < 65535) {
+        try {
+            receiver.setup(port);
+        } catch (int ex) {
+            // TODO
+        }
+    }
+    
 }
 
 //------------------------------------------------------------------

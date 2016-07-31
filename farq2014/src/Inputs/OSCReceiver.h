@@ -84,6 +84,8 @@ private:
     ofImage oscReceiverImg;
     bool disabledEdit;
     
+    void _mouseReleased(ofMouseEventArgs &e);
+    
 };
 
 
