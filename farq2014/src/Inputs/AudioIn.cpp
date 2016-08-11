@@ -18,10 +18,10 @@ AudioIn::AudioIn(ofxUISuperCanvas* &gui_, string type_, string name_, int id_) :
     isEnabled    = true;
     disabledEdit = false;
     
-    waveform = new ofxUIMovingGraph(0, 0, 150, 75, inputBuffer, BUFFER_SIZE, -1, 2, "FFT");
+    waveform = new ofxUIMovingGraph(0, 0, 150, 75, inputBuffer, BUFFER_SIZE, -10, 20, "FFT");
     
     gui.add(isEnabled.setup("Enabled",isEnabled, 100,20));
-    gui.add(saturation.set("Sound Level",10,0,100));
+    gui.add(saturation.set("Sound Level",50,0,100));
     saturation.addListener(this, &AudioIn::editSaturation);
     gui.add(selectBand.set("Band",1,1,16));
     

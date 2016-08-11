@@ -15,7 +15,7 @@ AudioInputGenerator::AudioInputGenerator(string name_, int nodeID_):AudioListene
     hasNewData = false;
     isDataProcessed = false;
     bufferCounter = 0;
-    saturation = 100;
+    saturation = 20;
     enable = true;
 }
 
