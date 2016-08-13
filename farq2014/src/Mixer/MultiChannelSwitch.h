@@ -24,6 +24,7 @@ struct Channel{
     ofParameter<bool>   selected;
     int                 nodeId;
     string              label;
+    ofxBaseGui*         guiComponent;
 };
 
 public:

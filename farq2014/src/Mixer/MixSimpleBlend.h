@@ -20,6 +20,7 @@ struct Entry{
     ofParameter<bool>   selected;
     int                 nodeId;
     string              label;
+    ofxBaseGui*          guiComponent;
 };
 
 //simple sample mixtable

@@ -35,7 +35,7 @@ CustomSyphonServer::CustomSyphonServer(string name_, ImageOutput* feeder_, int i
     aspectRatioLabels.push_back("1.85:1");
     aspectRatioLabels.push_back("2.35:1");
     
-    gui.add(aspectRatio.set("Aspect Ratio - 1:1", 0, 0, 7));
+    gui.add(aspectRatio.set("Aspect Ratio - 16:9", 5, 0, 7));
     aspectRatio.addListener(this, &CustomSyphonServer::aspectRatioChanged);
     gui.setWidthElements(INSPECTOR_WIDTH);
 }

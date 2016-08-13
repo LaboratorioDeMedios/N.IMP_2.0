@@ -47,7 +47,7 @@ void MultiChannelSwitch::inputAdded(ImageOutput* in_){
     selChannel.setMax(input.size()-1);
     channels.push_back(c);
     
-    gui.add(c->selected);
+    c->guiComponent = gui.add(c->selected);
     c->selected.addListener(this, &MultiChannelSwitch::cLabel);
 
     gui.setWidthElements(INSPECTOR_WIDTH);
@@ -69,7 +69,7 @@ void MultiChannelSwitch::inputRemoved(int id_){
     }
     for (int i = 0; i < channels.size(); i++) {
         if(channels[i]->nodeId == id_){
-            gui.remove(channels[i]->label);
+            gui.remove(channels[i]->guiComponent);
             channels.erase(channels.begin() + i);
         }
     }

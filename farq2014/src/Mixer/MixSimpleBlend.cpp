@@ -12,7 +12,7 @@
 
 MixSimpleBlend::MixSimpleBlend(string name_, int id_):MixTable(name_, "Mix Simple Blend", id_){
     
-    maxInputs = 16;
+    maxInputs = 2;
 
     gui.add(isEnabled.setup("Enabled", isEnabled, 100, 20));
     
@@ -141,7 +141,6 @@ void MixSimpleBlend::entryChanged(bool& b){
 
 //------------------------------------------------------------------
 void MixSimpleBlend::inputAdded(ImageOutput* in_){
-    
     Entry* e = new Entry();
     e->nodeId = in_->getId();
     e->label = in_->getName();
@@ -152,7 +151,7 @@ void MixSimpleBlend::inputAdded(ImageOutput* in_){
         selector2 == 1 ? e->selected.set(in_->getName(),true) : e->selected.set(in_->getName(),false);
     }
     
-    gui.add(e->selected);
+    e->guiComponent = gui.add(e->selected);
     e->selected.addListener(this, &MixSimpleBlend::entryChanged);
     entries.push_back(e);
     gui.setWidthElements(INSPECTOR_WIDTH);
@@ -166,7 +165,7 @@ void MixSimpleBlend::inputRemoved(int id_){
     
     for (int i = 0; i < entries.size(); i++) {
         if(entries[i]->nodeId == id_){
-            gui.remove(entries[i]->label);
+            gui.remove(entries[i]->guiComponent);
             entries.erase(entries.begin() + i);
         }
     }

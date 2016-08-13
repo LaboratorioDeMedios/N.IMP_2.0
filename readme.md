@@ -61,7 +61,7 @@ Create your own shaders to apply different transformations. It supports GLSL ver
 
 ### Mixers
 
-- Multi-Channel Switch (up to 8 inputs), Mix Simple Blend, Mix Mask
+- Multi-Channel Switch (up to 16 inputs), Mix Simple Blend, Mix Mask
 
 Mix different inputs and apply transformations
 

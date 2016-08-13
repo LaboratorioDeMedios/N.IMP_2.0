@@ -68,6 +68,12 @@ void ImageOutput::setNodeViewerIBelong(ofxComposer* viewer_) {
 //------------------------------------------------------------------
 bool ImageOutput::addInput(ofxPatch* layer_){
     if (input.size()<maxInputs) {
+        for(int i=0; i<input.size(); i++) {
+            if(input.at(i)->getId() == layer_->getId()){
+                ConsoleLog::getInstance()->pushError("Input already exists");
+                return false;
+            }
+        }
         input.push_back((ImageOutput*)layer_);
         
         if (input.size() == 1) {
