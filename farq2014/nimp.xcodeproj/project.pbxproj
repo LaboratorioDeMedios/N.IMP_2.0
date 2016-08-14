@@ -2477,6 +2477,7 @@
 					"$(OF_CORE_LIBS)",
 					../../../addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.laboratoriodemedios.nimp;
 				PRODUCT_NAME = nimpDebug;
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
@@ -2628,6 +2629,7 @@
 					"$(OF_CORE_LIBS)",
 					../../../addons/ofxOpenCv/libs/opencv/lib/osx/opencv.a,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.laboratoriodemedios.nimp;
 				PRODUCT_NAME = nimp;
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
