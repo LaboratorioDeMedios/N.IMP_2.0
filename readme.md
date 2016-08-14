@@ -85,37 +85,37 @@ Export generated content to syphon server.
 ### Used OF addons
 To develop N.IMP, we have created these forks from some great addons:
 
-git clone https://github.com/LaboratorioDeMedios/ofxPostProcessing_nimp
+http://github.com/LaboratorioDeMedios/ofxPostProcessing_nimp
 
-git clone https://github.com/LaboratorioDeMedios/ofxSyphon_nimp
+http://github.com/LaboratorioDeMedios/ofxSyphon_nimp
 
-git clone https://github.com/LaboratorioDeMedios/ofxMidi_nimp
+http://github.com/LaboratorioDeMedios/ofxMidi_nimp
 
-git clone https://github.com/LaboratorioDeMedios/ofxMultiTouchPad_nimp
+http://github.com/LaboratorioDeMedios/ofxMultiTouchPad_nimp
 
-git clone https://github.com/LaboratorioDeMedios/ofxPSBlend_nimp
+http://github.com/LaboratorioDeMedios/ofxPSBlend_nimp
 
-git clone https://github.com/LaboratorioDeMedios/ofxPostGlitch_nimp
+http://github.com/LaboratorioDeMedios/ofxPostGlitch_nimp
 
-git clone https://github.com/LaboratorioDeMedios/ofxHapPlayer_nimp
+http://github.com/LaboratorioDeMedios/ofxHapPlayer_nimp
 
-git clone https://github.com/LaboratorioDeMedios/ofxImageSequencePlayer_nimp
+http://github.com/LaboratorioDeMedios/ofxImageSequencePlayer_nimp
 
-git clone https://github.com/LaboratorioDeMedios/ofxJpegGlitch_nimp
+http://github.com/LaboratorioDeMedios/ofxJpegGlitch_nimp
 
-git clone https://github.com/LaboratorioDeMedios/ofxAVFVideoPlayer_nimp
+http://github.com/LaboratorioDeMedios/ofxAVFVideoPlayer_nimp
 
-git clone https://github.com/LaboratorioDeMedios/ofxComposer_nimp
+http://github.com/LaboratorioDeMedios/ofxComposer_nimp
 
-git clone https://github.com/LaboratorioDeMedios/ofxGui_nimp
+http://github.com/LaboratorioDeMedios/ofxGui_nimp
 
-git clone https://github.com/LaboratorioDeMedios/ofxUI_nimp
+http://github.com/LaboratorioDeMedios/ofxUI_nimp
 
-git clone https://github.com/LaboratorioDeMedios/ofxFilterbank_nimp
+http://github.com/LaboratorioDeMedios/ofxFilterbank_nimp
 
-git clone https://github.com/LaboratorioDeMedios/ofxMSAInteractiveObject_nimp
+http://github.com/LaboratorioDeMedios/ofxMSAInteractiveObject_nimp
 
-git clone https://github.com/LaboratorioDeMedios/ofxCv_nimp.git
+http://github.com/LaboratorioDeMedios/ofxCv_nimp.git
 
 
 
