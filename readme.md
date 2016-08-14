@@ -54,7 +54,7 @@ Control other node's parameters with audio or midi/osc messages.
 
 ### Visual Layers
 
-- IKEDA Layer, Glitch1 Layer, Glitch2 Layer, Image Processor
+- IKEDA Layer [deprecated], Glitch1 Layer, Glitch2 Layer [deprecated], Image Processor
 
 Greyscale effects, Canny's algorithm, several other effects.
 
