@@ -115,3 +115,6 @@ http://github.com/nperi/ofxPostGlitch_nimp
 
 http://github.com/nperi/ofxPostProcessing_nimp
 
+http://github.com/LaboratorioDeMedios/ofxCv_nimp
+
+
