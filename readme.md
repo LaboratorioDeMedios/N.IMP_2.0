@@ -85,36 +85,37 @@ Export generated content to syphon server.
 ### Used OF addons
 To develop N.IMP, we have created these forks from some great addons:
 
-http://github.com/nperi/ofxMidi_nimp
+git clone https://github.com/LaboratorioDeMedios/ofxPostProcessing_nimp
 
-http://github.com/nperi/ofxMultiTouchPad_nimp
+git clone https://github.com/LaboratorioDeMedios/ofxSyphon_nimp
 
-http://github.com/nperi/ofxPSBlend_nimp
+git clone https://github.com/LaboratorioDeMedios/ofxMidi_nimp
 
-http://github.com/nperi/ofxSyphon_nimp
+git clone https://github.com/LaboratorioDeMedios/ofxMultiTouchPad_nimp
 
-http://github.com/nperi/ofxJpegGlitch_nimp
+git clone https://github.com/LaboratorioDeMedios/ofxPSBlend_nimp
 
-http://github.com/nperi/ofxAVFVideoPlayer_nimp
+git clone https://github.com/LaboratorioDeMedios/ofxPostGlitch_nimp
 
-http://github.com/nperi/ofxHapPlayer_nimp
+git clone https://github.com/LaboratorioDeMedios/ofxHapPlayer_nimp
 
-http://github.com/nperi/ofxImageSequencePlayer_nimp
+git clone https://github.com/LaboratorioDeMedios/ofxImageSequencePlayer_nimp
 
-http://github.com/MiliGaricoits/ofxComposer_nimp
+git clone https://github.com/LaboratorioDeMedios/ofxJpegGlitch_nimp
 
-http://github.com/MiliGaricoits/ofxUI_nimp
+git clone https://github.com/LaboratorioDeMedios/ofxAVFVideoPlayer_nimp
 
-http://github.com/MiliGaricoits/ofxFilterbank_nimp
+git clone https://github.com/LaboratorioDeMedios/ofxComposer_nimp
 
-http://github.com/MiliGaricoits/ofxGui_nimp
+git clone https://github.com/LaboratorioDeMedios/ofxGui_nimp
 
-http://github.com/MiliGaricoits/ofxMSAInteractiveObject_nimp
+git clone https://github.com/LaboratorioDeMedios/ofxUI_nimp
 
-http://github.com/nperi/ofxPostGlitch_nimp
+git clone https://github.com/LaboratorioDeMedios/ofxFilterbank_nimp
 
-http://github.com/nperi/ofxPostProcessing_nimp
+git clone https://github.com/LaboratorioDeMedios/ofxMSAInteractiveObject_nimp
 
-http://github.com/LaboratorioDeMedios/ofxCv_nimp
+git clone https://github.com/LaboratorioDeMedios/ofxCv_nimp.git
+
 
 
