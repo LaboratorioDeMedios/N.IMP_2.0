@@ -14,3 +14,4 @@ git clone https://github.com/LaboratorioDeMedios/ofxGui_nimp
 git clone https://github.com/LaboratorioDeMedios/ofxUI_nimp
 git clone https://github.com/LaboratorioDeMedios/ofxFilterbank_nimp
 git clone https://github.com/LaboratorioDeMedios/ofxMSAInteractiveObject_nimp
+git clone https://github.com/LaboratorioDeMedios/ofxCv_nimp.git
