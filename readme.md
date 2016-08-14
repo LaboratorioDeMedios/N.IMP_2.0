@@ -16,6 +16,8 @@ N.IMP is an audiovisual real-time content generator made in Open Frameworks. It 
 
 For the moment it's only available for mac.
 
+http://nimp.uy
+
 License
 ---------------
 
@@ -112,4 +114,7 @@ http://github.com/MiliGaricoits/ofxMSAInteractiveObject_nimp
 http://github.com/nperi/ofxPostGlitch_nimp
 
 http://github.com/nperi/ofxPostProcessing_nimp
+
+http://github.com/LaboratorioDeMedios/ofxCv_nimp
+
 
