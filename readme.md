@@ -84,18 +84,32 @@ Export generated content to syphon server.
 To develop N.IMP, we have created these forks from some great addons:
 
 http://github.com/nperi/ofxMidi_nimp
+
 http://github.com/nperi/ofxMultiTouchPad_nimp
+
 http://github.com/nperi/ofxPSBlend_nimp
+
 http://github.com/nperi/ofxSyphon_nimp
+
 http://github.com/nperi/ofxJpegGlitch_nimp
+
 http://github.com/nperi/ofxAVFVideoPlayer_nimp
+
 http://github.com/nperi/ofxHapPlayer_nimp
+
 http://github.com/nperi/ofxImageSequencePlayer_nimp
+
 http://github.com/MiliGaricoits/ofxComposer_nimp
+
 http://github.com/MiliGaricoits/ofxUI_nimp
+
 http://github.com/MiliGaricoits/ofxFilterbank_nimp
+
 http://github.com/MiliGaricoits/ofxGui_nimp
+
 http://github.com/MiliGaricoits/ofxMSAInteractiveObject_nimp
+
 http://github.com/nperi/ofxPostGlitch_nimp
+
 http://github.com/nperi/ofxPostProcessing_nimp
 
