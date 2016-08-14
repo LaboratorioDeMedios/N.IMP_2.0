@@ -1,8 +1,0 @@
-<FFT_SETTINGS>
-    <!-- USE ONLY BANDS FROM 1 to 125 -->
-    <!-- lower band = lower pitch ... i think -->
-    <AUDIO_MAP band="1" nodeName="Particle Visual" param="coBrightness" inputMinValue='0' inputMaxValue='50' paramMinValue='0' paramMaxValue='255' />
-    <!--AUDIO_MAP band="20" nodeName="Particle Visual" param="coMultiple" inputMinValue='0' inputMaxValue='50' paramMinValue='0' paramMaxValue='255' /-->
-    <!--AUDIO_MAP band="5" nodeName="V_GLITCH1" param="p4" inputMinValue='0' inputMaxValue='50' paramMinValue='0' paramMaxValue='255' /-->
-    
-</FFT_SETTINGS>
