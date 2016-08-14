@@ -7,6 +7,8 @@ Building
 ---------------
 To build this project go to /bin/data path and run setup.sh script
 
+N.IMP uses Openframeworks v0.8.3.
+
 
 Description
 ---------------
@@ -79,31 +81,21 @@ Export generated content to syphon server.
 
 
 ### Used OF addons
-Forked this addons and made our customization.
+To develop N.IMP, we have created these forks from some great addons:
 
-https://github.com/patriciogonzalezvivo/ofxComposer
-
-https://github.com/rezaali/ofxUI
-
-https://github.com/neilmendoza/ofxPostProcessing
-
-https://github.com/astellato/ofxSyphon
-
-https://github.com/danomatika/ofxMidi
-
-https://github.com/jens-a-e/ofxMultiTouchPad
-
-https://github.com/Akira-Hayasaka/ofxPSBlend
-
-https://github.com/maxillacult/ofxPostGlitch
-
-https://github.com/bangnoise/ofxHapPlayer
-
-https://github.com/brinoausrino/ofxImageSequencePlayer
-
-https://github.com/2bbb/ofxJpegGlitch
-
-https://github.com/kronick/ofxAVFVideoPlayer
-
-https://github.com/leozimmerman/ofxFilterbank
+http://github.com/nperi/ofxMidi_nimp
+http://github.com/nperi/ofxMultiTouchPad_nimp
+http://github.com/nperi/ofxPSBlend_nimp
+http://github.com/nperi/ofxSyphon_nimp
+http://github.com/nperi/ofxJpegGlitch_nimp
+http://github.com/nperi/ofxAVFVideoPlayer_nimp
+http://github.com/nperi/ofxHapPlayer_nimp
+http://github.com/nperi/ofxImageSequencePlayer_nimp
+http://github.com/MiliGaricoits/ofxComposer_nimp
+http://github.com/MiliGaricoits/ofxUI_nimp
+http://github.com/MiliGaricoits/ofxFilterbank_nimp
+http://github.com/MiliGaricoits/ofxGui_nimp
+http://github.com/MiliGaricoits/ofxMSAInteractiveObject_nimp
+http://github.com/nperi/ofxPostGlitch_nimp
+http://github.com/nperi/ofxPostProcessing_nimp
 
