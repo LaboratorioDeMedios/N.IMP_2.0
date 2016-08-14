@@ -88,9 +88,6 @@ ParticleGenerator::ParticleGenerator(string name, int id_) : InputSource(name, "
     ofAddListener(baseGui->addOrRemoveOSCInputBaseGui, &gui, &ofxGuiGroup::addOrRemoveOSCInput);
     baseGui = gui.find("Scale");
     ofAddListener(baseGui->addOrRemoveOSCInputBaseGui, &gui, &ofxGuiGroup::addOrRemoveOSCInput);
-    
-    particle = new ofxParticleSystem(200,width,height,minRadius,(unityScale) ? minRadius : maxRadius,minLifetime,maxLifetime,fadeOut);
-    
 }
 
 //------------------------------------------------------------------
@@ -130,7 +127,10 @@ ParticleGenerator::~ParticleGenerator(){
 }
 
 //------------------------------------------------------------------
-void ParticleGenerator::setup() {}
+void ParticleGenerator::setup() {
+
+    particle = new ofxParticleSystem(200,width,height,minRadius,(unityScale) ? minRadius : maxRadius,minLifetime,maxLifetime,fadeOut);
+}
 
 //------------------------------------------------------------------
 void ParticleGenerator::update() {
@@ -386,6 +386,16 @@ bool ParticleGenerator::saveSettings(ofxXmlSettings &XML) {
     XML.addAttribute("NODE", "name", name, lastPlace);
     XML.addAttribute("NODE", "type", "PARTICLE", lastPlace);
     
+    XML.addAttribute("NODE", "isClearBg", isClearBg, lastPlace);
+    XML.addAttribute("NODE", "alphaParticles", alphaParticles, lastPlace);
+    XML.addAttribute("NODE", "autoGenParticle", autoGenParticle, lastPlace);
+    XML.addAttribute("NODE", "autoGenAmount", autoGenAmount, lastPlace);
+    XML.addAttribute("NODE", "unityScale", unityScale, lastPlace);
+    XML.addAttribute("NODE", "minRadius", minRadius, lastPlace);
+    XML.addAttribute("NODE", "maxRadius", maxRadius, lastPlace);
+    XML.addAttribute("NODE", "minLifetime", minLifetime, lastPlace);
+    XML.addAttribute("NODE", "maxLifetime", maxLifetime, lastPlace);
+    
     saved = XML.pushTag("NODE", lastPlace);
     if (saved){
         saved = ofxPatch::saveSettings(XML, true, lastPlace);
@@ -405,6 +415,16 @@ bool ParticleGenerator::saveSettingsToSnippet(ofxXmlSettings &XML, map<int,int> 
     XML.addAttribute("NODE", "id", newIdsMap[nId], lastPlace);
     XML.addAttribute("NODE", "name", name, lastPlace);
     XML.addAttribute("NODE", "type", "PARTICLE", lastPlace);
+    
+    XML.addAttribute("NODE", "isClearBg", isClearBg, lastPlace);
+    XML.addAttribute("NODE", "alphaParticles", alphaParticles, lastPlace);
+    XML.addAttribute("NODE", "autoGenParticle", autoGenParticle, lastPlace);
+    XML.addAttribute("NODE", "autoGenAmount", autoGenAmount, lastPlace);
+    XML.addAttribute("NODE", "unityScale", unityScale, lastPlace);
+    XML.addAttribute("NODE", "minRadius", minRadius, lastPlace);
+    XML.addAttribute("NODE", "maxRadius", maxRadius, lastPlace);
+    XML.addAttribute("NODE", "minLifetime", minLifetime, lastPlace);
+    XML.addAttribute("NODE", "maxLifetime", maxLifetime, lastPlace);
 
     saved = XML.pushTag("NODE", lastPlace);
     if (saved){
