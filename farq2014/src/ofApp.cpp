@@ -14,7 +14,7 @@ void ofApp::setup() {
     
     //*** MAIN SETUP ***//
     //
-    xmlFileName            = "Untitle.xml";
+    xmlFileName            = "Untitled.xml";
     xmlFilePath            = "";
     loadingOK              = true;
     isFullScreen           = false;
