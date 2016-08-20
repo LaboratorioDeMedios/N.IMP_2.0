@@ -1,6 +1,0 @@
-<OSC_SETTINGS port="12345">
-    <ADDRESS path="/multi/1">
-    	<OSC_MAP nodeName="Particle" param="forceX" inputMinValue='0.0' inputMaxValue='1.0' paramMinValue='0' paramMaxValue='1024' />
-    	<OSC_MAP nodeName="Particle" param="forceY" inputMinValue='0.0' inputMaxValue='1.0' paramMinValue='0' paramMaxValue='576' />
-    </ADDRESS>
-</OSC_SETTINGS>

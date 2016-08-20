@@ -1,0 +1,142 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "252C87C319FBC1068CD046C09D8C5E406AB96AF3+++C232F29",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BFCEBA68FA34CC9D42430E49FB09A6EA416EC05F+++E46BA0D" : 0,
+    "DF8CF2077679A8E9DC1BA352D6E976FCED7DE749+++FECAE8B" : 0,
+    "EBC5E2A29F125165AEBCAA19E4D8FC06D99494BA+++0C270D2" : 0,
+    "DF85813CBF70BC89E7CDDBA03564E781DC169BED+++DCD62E2" : 0,
+    "8F000071CE7F4AC671BD6E9084D7C2A0B99F7D99+++F3841D7" : 0,
+    "37526DA425E5430474A14FBFA1BC4525160B5FC1+++79A41E3" : 0,
+    "E62FC086B0CC7B479279A8687B6BE70ED74AEDAD+++BFEC18C" : 0,
+    "948EE651663C32063606289EDDFF747A436F0AF9+++357D359" : 0,
+    "0E95F194A4D50714D81A77DBDBA41B2B06F4468C+++8D367E9" : 0,
+    "252C87C319FBC1068CD046C09D8C5E406AB96AF3+++C232F29" : 0,
+    "AD4BEB8D191D3A37A0E32AAC674B3540263DA07F+++9AE52D1" : 0,
+    "90E2F969A762FB62C413A0C44D1F334E6EC3F531+++B6257DE" : 0,
+    "210A84CB64DBE001319448A793DFC671846EB46E+++9BD1806" : 0,
+    "F4CCB893AFADB97238A965FD2F28717F1CAAE613+++0CD00E7" : 0,
+    "D513395B3B2672F06879738DB1BEEA65E2B146B1+++A361FCC" : 0,
+    "95F70890EFD46183734FEDFE52CF53391DE6937E+++D338536" : 0,
+    "F4CCB893AFADB97238A965FD2F28717F1CAAE613+++EDBEF7C" : 0,
+    "F7E083AAB3EC4A58EF654FC28444C64C193E627F+++200DD9C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AD29777C-A75C-48E9-821F-C5295F5C172B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BFCEBA68FA34CC9D42430E49FB09A6EA416EC05F+++E46BA0D" : "..\/addons\/ofxHapPlayer_nimp",
+    "DF8CF2077679A8E9DC1BA352D6E976FCED7DE749+++FECAE8B" : "..\/addons\/ofxPSBlend_nimp",
+    "EBC5E2A29F125165AEBCAA19E4D8FC06D99494BA+++0C270D2" : "..\/addons\/ofxAVFVideoPlayer_nimp",
+    "DF85813CBF70BC89E7CDDBA03564E781DC169BED+++DCD62E2" : "..\/addons\/ofxFilterbank_nimp",
+    "8F000071CE7F4AC671BD6E9084D7C2A0B99F7D99+++F3841D7" : "..\/addons\/ofxMultiTouchPad_nimp",
+    "37526DA425E5430474A14FBFA1BC4525160B5FC1+++79A41E3" : "..\/addons\/ofxCv_nimp",
+    "E62FC086B0CC7B479279A8687B6BE70ED74AEDAD+++BFEC18C" : "..\/addons\/ofxUI_nimp",
+    "948EE651663C32063606289EDDFF747A436F0AF9+++357D359" : "..\/addons\/ofxImageSequencePlayer_nimp",
+    "0E95F194A4D50714D81A77DBDBA41B2B06F4468C+++8D367E9" : "..\/addons\/ofxGui_nimp",
+    "252C87C319FBC1068CD046C09D8C5E406AB96AF3+++C232F29" : "N.IMP_2.0\/",
+    "AD4BEB8D191D3A37A0E32AAC674B3540263DA07F+++9AE52D1" : "..\/addons\/ofxJpegGlitch_nimp",
+    "90E2F969A762FB62C413A0C44D1F334E6EC3F531+++B6257DE" : "..\/addons\/ofxMidi_nimp",
+    "210A84CB64DBE001319448A793DFC671846EB46E+++9BD1806" : "..\/addons\/ofxPostGlitch_nimp",
+    "F4CCB893AFADB97238A965FD2F28717F1CAAE613+++0CD00E7" : "..\/addons\/ofxSyphon_nimp",
+    "D513395B3B2672F06879738DB1BEEA65E2B146B1+++A361FCC" : "..\/addons\/ofxComposer_nimp",
+    "95F70890EFD46183734FEDFE52CF53391DE6937E+++D338536" : "..\/addons\/ofxPostProcessing_nimp",
+    "F4CCB893AFADB97238A965FD2F28717F1CAAE613+++EDBEF7C" : "..\/addons\/ofxSyphon",
+    "F7E083AAB3EC4A58EF654FC28444C64C193E627F+++200DD9C" : "..\/addons\/ofxMSAInteractiveObject_nimp"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "nimp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "nimp\/nimp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LaboratorioDeMedios\/ofxGui_nimp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0E95F194A4D50714D81A77DBDBA41B2B06F4468C+++8D367E9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LaboratorioDeMedios\/ofxPostGlitch_nimp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "210A84CB64DBE001319448A793DFC671846EB46E+++9BD1806"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LaboratorioDeMedios\/N.IMP_2.0.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "252C87C319FBC1068CD046C09D8C5E406AB96AF3+++C232F29"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LaboratorioDeMedios\/ofxCv_nimp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "37526DA425E5430474A14FBFA1BC4525160B5FC1+++79A41E3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LaboratorioDeMedios\/ofxMultiTouchPad_nimp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8F000071CE7F4AC671BD6E9084D7C2A0B99F7D99+++F3841D7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LaboratorioDeMedios\/ofxMidi_nimp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "90E2F969A762FB62C413A0C44D1F334E6EC3F531+++B6257DE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LaboratorioDeMedios\/ofxImageSequencePlayer_nimp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "948EE651663C32063606289EDDFF747A436F0AF9+++357D359"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LaboratorioDeMedios\/ofxPostProcessing_nimp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "95F70890EFD46183734FEDFE52CF53391DE6937E+++D338536"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LaboratorioDeMedios\/ofxJpegGlitch_nimp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD4BEB8D191D3A37A0E32AAC674B3540263DA07F+++9AE52D1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LaboratorioDeMedios\/ofxHapPlayer_nimp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BFCEBA68FA34CC9D42430E49FB09A6EA416EC05F+++E46BA0D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LaboratorioDeMedios\/ofxComposer_nimp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D513395B3B2672F06879738DB1BEEA65E2B146B1+++A361FCC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LaboratorioDeMedios\/ofxFilterbank_nimp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DF85813CBF70BC89E7CDDBA03564E781DC169BED+++DCD62E2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LaboratorioDeMedios\/ofxPSBlend_nimp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DF8CF2077679A8E9DC1BA352D6E976FCED7DE749+++FECAE8B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LaboratorioDeMedios\/ofxUI_nimp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E62FC086B0CC7B479279A8687B6BE70ED74AEDAD+++BFEC18C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LaboratorioDeMedios\/ofxAVFVideoPlayer_nimp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EBC5E2A29F125165AEBCAA19E4D8FC06D99494BA+++0C270D2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LaboratorioDeMedios\/ofxSyphon_nimp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F4CCB893AFADB97238A965FD2F28717F1CAAE613+++0CD00E7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/astellato\/ofxSyphon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F4CCB893AFADB97238A965FD2F28717F1CAAE613+++EDBEF7C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LaboratorioDeMedios\/ofxMSAInteractiveObject_nimp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F7E083AAB3EC4A58EF654FC28444C64C193E627F+++200DD9C"
+    }
+  ]
+}
